@@ -1,0 +1,21 @@
+dataTools, Apr 2005 (README file added in 2015)
+Andy Ganse, Applied Physics Laboratory, University of Washington
+aganse@apl.washington.edu
+----------------------------------------------------------------
+
+The routines here provide tools to do basic statistics and
+manipulations on X,Y data pairs, as well as a plotting class
+that handles the DataSeries class.
+
+The DataSeries class was originally written back before the
+JSci package (and similar packages) had been finished/available;
+nowadays one would use a package like that rather than rewrite
+one.  The real purpose then of this package now is just legacy
+use because my MultiRegressLines, RayDemo, and SpheRayDemo
+codes depend on it.
+
+Note the Makefile in this folder only runs javadoc and clean;
+those other applications compile these source files and place
+the source files in each of their own folders so they can jar
+them up with the application.
+
